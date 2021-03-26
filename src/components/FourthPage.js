@@ -20,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
   },
   h1: {
     fontSize: "2rem",
+    fontFamily: "sofia-pro, sans-serif",
+    fontStyle: 'normal',
+    fontWeight: '400'
   },
   arrowImg: {
     width: "50px",

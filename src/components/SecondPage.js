@@ -24,17 +24,25 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "6vh",
   },
   text: {
-    fontFamily: "sofia-pro, sans-serif;",
+    fontFamily: "sofia-pro, sans-serif",
+    fontStyle: 'normal',
+    fontWeight: '400'
   },
   best: {
     color: "#c42237",
   },
   h1: {
     fontSize: "2rem",
+    fontFamily: "sofia-pro, sans-serif",
+    fontStyle: 'normal',
+    fontWeight: '400'
   },
   p: {
     width: "70%",
-    fontSize: ".8rem"
+    fontSize: ".8rem",
+    fontFamily: "sofia-pro, sans-serif",
+    fontStyle: 'normal',
+    fontWeight: '400'
   }
 }));
 export default function SecondPage() {

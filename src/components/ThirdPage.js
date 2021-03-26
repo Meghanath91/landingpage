@@ -34,7 +34,11 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
   },
   h1: {
+
     fontSize: "2rem",
+    fontFamily: "sofia-pro, sans-serif",
+    fontStyle: 'normal',
+    fontWeight: '400'
   },
   p: {
     width: "100%",
