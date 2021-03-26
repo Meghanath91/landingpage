@@ -12,10 +12,12 @@ const useStyles = makeStyles((theme) => ({
   },
   bestMomentImg: {
     width: "100%",
-    height: "45vh",
+    height: "50vh",
   },
   imgContainer: {
     display: "flex",
+    paddingLeft: "5%",
+    justifyContent: "space-between",
   },
   arrowImg: {
     width: "50px",
@@ -28,27 +30,33 @@ const useStyles = makeStyles((theme) => ({
   },
   titleContainer: {
     display: "flex",
+    alignItems: "flex-start",
     width: "100%",
   },
+  h1: {
+    fontSize: "2rem",
+  },
   p: {
-    width: "70%",
+    width: "100%",
     margin: "0px",
-    marginRight: "0px",
-    paddingRight: "0px",
+    paddingRight: "15%",
+    paddingBottom: "15%",
+    fontSize: ".8rem",
   },
   bestMomentImg2: {
-    padding: "3%",
-    width: "35%",
+    width: "45%",
+    marginRight: "5%",
   },
   bestMomentImg3: {
-    padding: "3%",
-    width: "35%",
+    width: "55%",
   },
   text: {
     width: "100%",
     margin: "0px",
   },
-
+  rightContainer: {
+    paddingTop: "3%",
+  },
 }));
 export default function ThirdPage() {
   const classes = useStyles();
@@ -65,9 +73,9 @@ export default function ThirdPage() {
           <img className={classes.arrowImg} src={arrowImg} alt="arrow-img" />
           <div className={classes.text}>
             <h1 className={classes.h1}>
-              THE BEST MOMENTS
+              THE <span className={classes.specialText}>BEST</span> MOMENTS
               <br />
-              <span className={classes.specialText}>ALL AROUND YOU</span>
+              ALL AROUND YOU
             </h1>
             <p className={classes.p}>
               Just East of Bur Oak to Donald Cousens Pkwy, Cornell’s community
@@ -89,7 +97,7 @@ export default function ThirdPage() {
             className={classes.bestMomentImg2}
             src={bestMomentImg2}
             alt="arrow-img"
-          />{" "}
+          />
           <img
             className={classes.bestMomentImg3}
             src={bestMomentImg3}

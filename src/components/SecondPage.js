@@ -5,16 +5,15 @@ import arrowImg from "../images/leftArrow.svg";
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
-
+    width: "100%",
     background: "#fff"
   },
   leftContainer: {
     display: "flex",
-
     alignItems: "flex-start",
   },
   heroImg: {
-    width: "50%",
+    width: "60%",
     height: "100vh",
   },
   arrowImg: {

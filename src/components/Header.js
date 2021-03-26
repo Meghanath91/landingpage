@@ -3,7 +3,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import headerImg from "../images/top-header-desktop.jpg";
 const useStyles = makeStyles((theme) => ({
   headerImg: {
-    height: "100vh",
+    width: "100%",
+    // height: "100vh",
   },
 }));
 export default function Header() {
