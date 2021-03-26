@@ -1,3 +1,7 @@
+.thumbs-wrapper axis-vertical {
+  display: none;
+}
+
 /* .App {
   text-align: center;
 }

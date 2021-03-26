@@ -1,13 +1,14 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import arrowImg from "../images/leftArrow.svg";
-
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 import slide1 from "../images/1.jpg";
 import slide2 from "../images/2.jpg";
 import slide3 from "../images/3.jpg";
 import slide4 from "../images/4.jpg";
-
+import '../App.css'
 
 const useStyles = makeStyles((theme) => ({
   headerImg: {
@@ -38,6 +39,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "flex-start",
     width: "100%",
   },
+
 }));
 
 export default function FourthPage() {
@@ -63,7 +65,20 @@ export default function FourthPage() {
       </div>
 
       <div>
-
+        <Carousel>
+          <div>
+            <img src={slide1} alt={"slide1"} />
+            {/* <p className="legend">Legend 1</p> */}
+          </div>
+          <div>
+            <img src={slide2} alt={"slide2"} />
+            {/* <p className="legend">Legend 2</p> */}
+          </div>
+          <div>
+            <img src={slide3} alt={"slide3"} />
+            {/* <p className="legend">Legend 3</p> */}
+          </div>
+        </Carousel>
 
       </div>
     </div>
