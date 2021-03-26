@@ -1,5 +1,6 @@
 import { CssBaseline } from '@material-ui/core'
 import React from 'react'
+import Header from './Header'
 import Navbar from './Navbar'
 
 export default function MainPage() {
@@ -7,6 +8,7 @@ export default function MainPage() {
     <div>
       <CssBaseline />
       <Navbar />
+      <Header />
     </div>
   )
 }

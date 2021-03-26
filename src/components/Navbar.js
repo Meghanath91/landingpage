@@ -13,7 +13,7 @@ export default function Navbar() {
       height: "100vh",
     },
     appBar: {
-      background: "none",
+      background: "#fff",
       display: "flex",
       flexDirection: "row",
       justifyContent: "space-between",
@@ -24,7 +24,7 @@ export default function Navbar() {
     },
     logoImg: {
       height: "80px",
-      padding: "25px"
+      padding: "25px",
     },
   }));
 
@@ -32,9 +32,6 @@ export default function Navbar() {
   return (
     <div>
       <AppBar className={classes.appBar}>
-        {/* <div>
-
-        </div> */}
         <img className={classes.logoImg} src={logo} alt="logo" />
         <img
           className={classes.registerBtnImg}
