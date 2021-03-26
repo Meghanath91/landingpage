@@ -72,15 +72,15 @@ export default function FourthPage() {
           </div>
           <div>
             <img src={slide2} alt={"slide2"} />
-            {/* <p className="legend">Legend 2</p> */}
+
           </div>
           <div>
             <img src={slide3} alt={"slide3"} />
-            {/* <p className="legend">Legend 3</p> */}
+
           </div>
           <div>
             <img src={slide4} alt={"slide3"} />
-            {/* <p className="legend">Legend 3</p> */}
+
           </div>
         </Carousel>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import footerImg from "../images/footerPart.svg";
+import '../App.css'
 import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -40,6 +41,9 @@ const useStyles = makeStyles((theme) => ({
     border: "solid 1.5px black",
   },
   button: {
+    "&:hover": {
+      backgroundColor: 'rgb(7, 177, 77, 0.42)'
+    },
     width: "60%",
     height: "50px",
     color: "#fff",
@@ -62,6 +66,7 @@ const useStyles = makeStyles((theme) => ({
   copyRight: {
     background: "#fff",
   },
+
 }));
 export default function ContactPage() {
   const classes = useStyles();
@@ -116,7 +121,7 @@ export default function ContactPage() {
             the sole holder and user of this email account.
           </p>
         </div>
-        <button className={classes.button}>REGISTER</button>
+        <button id="reg-btn" className={classes.button}>REGISTER</button>
       </div>
       <div className={classes.footerLogoContainer}>
         <img className={classes.footerImg} src={footerImg} alt="header-img" />

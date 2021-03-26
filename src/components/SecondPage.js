@@ -2,6 +2,8 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import heroImg from "../images/deserve.jpg";
 import arrowImg from "../images/leftArrow.svg";
+
+
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
@@ -37,6 +39,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 export default function SecondPage() {
   const classes = useStyles();
+
 
   return (
     <div className={classes.root}>

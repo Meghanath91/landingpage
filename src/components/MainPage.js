@@ -7,7 +7,7 @@ import Header from './Header'
 import Navbar from './Navbar'
 import SecondPage from './SecondPage'
 import ThirdPage from './ThirdPage'
-// import ThankYou from './ThankYou'
+import ThankYou from './ThankYou'
 
 export default function MainPage() {
   return (
@@ -20,7 +20,7 @@ export default function MainPage() {
       <FourthPage />
       <FifthPage />
       <ContactPage />
-      {/* <ThankYou /> */}
+      <ThankYou />
     </div>
   )
 }
