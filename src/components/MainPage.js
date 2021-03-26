@@ -1,5 +1,6 @@
 import { CssBaseline } from '@material-ui/core'
 import React from 'react'
+import FifthPage from './FifthPage'
 import FourthPage from './FourthPage'
 import Header from './Header'
 import Navbar from './Navbar'
@@ -16,6 +17,7 @@ export default function MainPage() {
       <SecondPage />
       <ThirdPage />
       <FourthPage />
+      <FifthPage />
       {/* <ThankYou /> */}
     </div>
   )
