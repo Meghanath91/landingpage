@@ -1,5 +1,6 @@
 import { CssBaseline } from '@material-ui/core'
 import React from 'react'
+import ContactPage from './ContactPage'
 import FifthPage from './FifthPage'
 import FourthPage from './FourthPage'
 import Header from './Header'
@@ -18,6 +19,7 @@ export default function MainPage() {
       <ThirdPage />
       <FourthPage />
       <FifthPage />
+      <ContactPage />
       {/* <ThankYou /> */}
     </div>
   )
