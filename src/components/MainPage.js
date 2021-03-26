@@ -3,6 +3,7 @@ import React from 'react'
 import Header from './Header'
 import Navbar from './Navbar'
 import SecondPage from './SecondPage'
+import ThirdPage from './ThirdPage'
 // import ThankYou from './ThankYou'
 
 export default function MainPage() {
@@ -12,6 +13,7 @@ export default function MainPage() {
       <Navbar />
       <Header />
       <SecondPage />
+      <ThirdPage />
       {/* <ThankYou /> */}
     </div>
   )
